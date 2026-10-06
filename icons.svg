@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+  <!--
+    Планировщик · значки. Все штриховые, цвет берётся из currentColor.
+    Использование: <svg width="14" height="14"><use href="icons.svg#folder"/></svg>
+    Суффикс в id не пишется: размер задаётся viewBox. Группы: 14 px (чипы и кнопки-значки),
+    16 px (статусы, строки, поля), 20 px (нижняя панель и панель форматирования).
+  -->
+
+  <!-- 14 px: значки в чипах и кнопках-значках, толщина 1.5 -->
+  <symbol id="folder" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M1.75 3.75h3.5l1.5 1.5h5.5v6h-10.5z"/></symbol>
+  <symbol id="type-list" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2.25" y="2.25" width="9.5" height="9.5" rx="1.5"/></symbol>
+  <symbol id="type-day" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="7" cy="7" r="5.25"/><path d="M7 4v3l2 1.25"/></symbol>
+  <symbol id="type-timeline" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M2 4h6M5 7h7M3 10h5"/></symbol>
+  <symbol id="type-page" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.25 1.75h5l2.5 2.5v8h-7.5z"/><path d="M5.5 7.25h3M5.5 9.75h3"/></symbol>
+  <symbol id="calendar" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="2" y="2.75" width="10" height="9.5" rx="1.5"/><path d="M2 5.75h10M4.75 1.5v2.5M9.25 1.5v2.5"/></symbol>
+  <symbol id="tag" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M5.25 2.5l-1 9M9.75 2.5l-1 9M2.75 5.25h9M2.25 8.75h9"/></symbol>
+  <symbol id="repeat" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 6.5a4.5 4.5 0 0 1 8-2.25M11 2v2.5H8.5M11.5 7.5a4.5 4.5 0 0 1-8 2.25M3 12V9.5h2.5"/></symbol>
+  <symbol id="inbox" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M2 8.5l1.75-5.25h6.5L12 8.5v3H2z"/><path d="M2 8.5h3l.75 1.5h2.5L9 8.5h3"/></symbol>
+  <symbol id="plus-small" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M7 3.5v7M3.5 7h7"/></symbol>
+  <symbol id="minus-small" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.5 7h7"/></symbol>
+  <symbol id="chevron-left-small" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 3L4.5 7l4 4"/></symbol>
+  <symbol id="chevron-right-small" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3l4 4-4 4"/></symbol>
+  <symbol id="offline" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h6.25a2.5 2.5 0 0 0 .5-4.95A3.75 3.75 0 0 0 3.5 6.5 2.25 2.25 0 0 0 4 11z"/><path d="M2 2l10 10"/></symbol>
+  <symbol id="sync" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11h6.25a2.5 2.5 0 0 0 .5-4.95A3.75 3.75 0 0 0 3.5 6.5 2.25 2.25 0 0 0 4 11z"/><path d="M7 9.25V6.5M5.75 7.5L7 6.25 8.25 7.5"/></symbol>
+
+  <!-- 16 px: статусы задач и значки в строках, толщина 1.5 -->
+  <symbol id="status-open" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="5.75" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="status-in-progress" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="5.75" stroke="currentColor" stroke-width="1.5"/><path d="M8 2.25a5.75 5.75 0 0 0 0 11.5z" fill="currentColor"/></symbol>
+  <symbol id="status-done" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="6.5" fill="currentColor"/></symbol>
+  <symbol id="priority-high" viewBox="0 0 16 16" fill="none"><path d="M8 2.5v11M3.24 5.25l9.52 5.5M3.24 10.75l9.52-5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></symbol>
+  <symbol id="plus" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M8 3.5v9M3.5 8h9"/></symbol>
+  <symbol id="chevron-left" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 3.5L5.5 8l4.5 4.5"/></symbol>
+  <symbol id="chevron-right" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3.5L10.5 8 6 12.5"/></symbol>
+  <symbol id="search" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="7" cy="7" r="4.25"/><path d="M10.25 10.25L13 13"/></symbol>
+  <symbol id="checkbox" viewBox="0 0 16 16" fill="none"><rect x="2.75" y="2.75" width="10.5" height="10.5" rx="1.5" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <!-- Галочка рисуется цветом фона карточки (токен card), заливка квадрата: currentColor -->
+  <symbol id="checkbox-checked" viewBox="0 0 16 16" fill="none"><rect x="2" y="2" width="12" height="12" rx="1.5" fill="currentColor"/><path d="M5 8.25l2 2 4-4.5" stroke="#1b1b1a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+
+  <!-- 20 px: нижняя панель вкладок и панель форматирования, толщина 1.5 -->
+  <symbol id="tab-today" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="4" width="14" height="13" rx="2"/><path d="M3 8h14M7 2.5v3M13 2.5v3"/><circle cx="10" cy="12.5" r="1.25" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="tab-week" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="3" y="4" width="14" height="12" rx="2"/><path d="M3 8h14M3 12h14"/></symbol>
+  <symbol id="tab-tasks" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M7.25 10.25l2 2 3.5-4"/></symbol>
+  <symbol id="tab-notes" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 3h6l3.5 3.5V17h-9.5z"/><path d="M8 10h4.5M8 13h4.5"/></symbol>
+  <symbol id="plus-large" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M10 4.5v11M4.5 10h11"/></symbol>
+  <symbol id="format-bullets" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><path d="M3.5 6h2M3.5 10h2M3.5 14h2M8.5 6h8M8.5 10h8M8.5 14h8"/></symbol>
+  <symbol id="format-checkbox" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3.5" y="3.5" width="13" height="13" rx="2"/><path d="M6.75 10.25l2.25 2.25 4.25-5"/></symbol>
+</svg>
